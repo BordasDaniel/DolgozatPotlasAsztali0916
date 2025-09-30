@@ -42,15 +42,14 @@ namespace DolgozatPotlasAsztali0916
 
 
             // 37. feladat
-
             Console.WriteLine("\nFeladat 37:");
 
             Console.Write("Add meg hány soros legyen a háromszög: ");
             int n = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= n; i++)
+            for (int i = 0; i < n; i++)
             {
-                for(int j = 0; j < i; j++)
+                for(int j = 0; j < 2 * i + 1; j++)
                 {
                     Console.Write("*");
                 }
